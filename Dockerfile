@@ -10,4 +10,4 @@ COPY . ./
 
 ENV PORT=9321
 
-CMD [ "npm", "run start"]
+CMD [ "npm", "run", "start" ]

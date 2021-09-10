@@ -1,0 +1,30 @@
+{
+    "name": "discordzammadbot",
+    "version": "1.0.0",
+    "description": "Send discord complaint tickets to zammad",
+    "main": "./scr/bot.js",
+    "scripts": {
+        "test":     "echo \"Error: no test specified\" && exit 1",
+        "start":    "node ./src/bot.js",
+        "dev":      "nodemon ./src/bot.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Masternova/discordzammadbot.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Masternova/discordzammadbot/issues"
+    },
+    "keywords": [],
+    "homepage": "https://github.com/Masternova/discordzammadbot#readme",
+    "author": {
+        "name": "Cody"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^12.2.0",
+        "dotenv": "^8.2.0",
+        "request": "^2.88.2",
+        "nodemon": "^2.0.12"
+    }
+}
